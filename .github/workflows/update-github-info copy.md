@@ -13,9 +13,7 @@ engine:
   id: copilot
   copilot-sdk: true
 strict: true
-tools:
-  edit:
-  web-fetch:
+tools: ["web", "read", "edit", "search"]
 network:
   allowed:
     - github.blog
